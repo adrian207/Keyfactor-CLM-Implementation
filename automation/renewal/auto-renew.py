@@ -209,7 +209,7 @@ def main():
     
     # Summary
     logger.info("=" * 60)
-    logger.info(f"Renewal Summary:")
+    logger.info("Renewal Summary:")
     logger.info(f"  Total certificates: {len(certificates)}")
     logger.info(f"  Successful: {success_count}")
     logger.info(f"  Failed: {failed_count}")

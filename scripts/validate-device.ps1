@@ -1,3 +1,4 @@
+#Requires -Version 7.0
 # PowerShell Asset Validation Script
 # File: /opt/keyfactor/scripts/validate-device.ps1
 # Author: Adrian Johnson <adrian207@gmail.com>

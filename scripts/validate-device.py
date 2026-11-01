@@ -286,6 +286,7 @@ def validate_from_servicenow(hostname: str) -> Optional[AssetInfo]:
         
         response = requests.get(
             url,
+            params=params,
             auth=(SNOW_USER, SNOW_PASSWORD),
             headers={'Accept': 'application/json'},
             timeout=10
