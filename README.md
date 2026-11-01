@@ -84,6 +84,14 @@ Requirements by language: PowerShell 7 for `validate-device.ps1` (5.1 or later f
   repository. Check the API endpoints and authentication against your Keyfactor version before use, and run
   `auto-renew.py` with `DRY_RUN=true` first.
 
+## Related repositories
+
+These repositories cover different parts of PKI work:
+
+- **[EJBCA-Automated-Lab](https://github.com/adrian207/EJBCA-Automated-Lab)**: run an open-source CA (EJBCA Community Edition) on AKS to test enrolment and certificate automation
+- **Keyfactor-CLM-Implementation** (this repository): plan and operate certificate lifecycle management on Keyfactor Command (design, runbooks, API automation examples)
+- **[PKI-Consolidation](https://github.com/adrian207/PKI-Consolidation)**: merge two or more existing AD CS hierarchies into one, for example after an acquisition
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
